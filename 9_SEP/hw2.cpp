@@ -47,12 +47,12 @@ int multiply(string str){
       int i=0;
       while(str[i]!='*'&&i<str.length()) i++;
       string a = str.substr(0,i);
-      int var1 = atoi(a.c_str());
+      int var1 = std::stoi(a,nullptr);
       string b = str.substr(i+1);
       return var1 * multiply(b);
   }
   else
-    return atoi(str.c_str());
+    return std::stoi(str, nullptr);
 }
 
 bool check_add(string str){

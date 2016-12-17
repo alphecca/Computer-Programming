@@ -1,0 +1,52 @@
+6
+Grid Name root_grid Cols 2 1 4 Rows 2 4 1 end
+Rectangle Name red_rect Fill #FF0000 Parent root_grid Col 2 end
+Grid Name grid1 Rows 2 1 1 Parent root_grid end
+Rectangle Name blue_rect Fill #0000AA Parent root_grid Row 2 end
+Grid Name grid2 Cols 2 4 1 Rows 2 1 1 Parent root_grid Col 2 Row 2 end
+Rectangle Name yellow_rect Fill #FAFA00 Parent grid2 Col 2 Row 2 end
+
+3
+Grid Name root_grid Cols 2 1 4 Rows 2 4 1 end
+Grid Name grid1 Rows 2 1 1 Parent root_grid end
+Grid Name grid2 Cols 2 4 1 Rows 2 1 1 Parent root_grid end
+
+4
+Grid Name root_grid Cols 2 1 4 Rows 2 4 1 end
+Grid Name grid1 Rows 2 1 1 Parent root_grid end
+Grid Name sub_grid Cols 2 1 1 Rows 2 4 1 Parent grid1 Col 1 Row 1 end
+Grid Name grid2 Cols 2 4 1 Rows 2 1 1 Parent root_grid end
+
+
+2
+Grid Name root_grid Cols 2 1 4 Rows 2 4 1 end
+Grid Name grid1 Rows 2 1 1 Parent root_grid GridCol 2 GridRow 2 end
+
+
+4
+Grid Name root_grid Cols 2 1 4 Rows 2 4 1 end
+Grid Name grid1 Rows 2 1 1 Parent root_grid end
+Grid Name grid2 Cols 2 2 3 Rows 2 1 1 Parent grid1 Col 1 Row 2 end
+Grid Name grid3 Parent root_grid Col 2 Row 1 end
+ 
+6
+Grid Name root_grid Cols 2 1 4 Rows 2 4 1 end
+Grid Name grid1 Rows 2 1 1 Parent root_grid end
+Rectangle Name red_rect Fill #FF0000 Parent root_grid Col 2 end
+Rectangle Name blue_rect Fill #0000AA Parent root_grid Row 2 end
+Grid Name grid2 Cols 2 4 1 Rows 2 1 1 Parent root_grid Col 2 Row 2 end
+Rectangle Name yellow_rect Fill #FAFA00 Parent grid2 Col 2 Row 2 end
+
+6
+Grid Name A_grid Cols 3 1 2 1 Rows 5 1 2 3 4 5 end
+Grid Name B_grid Rows 2 1 7 Parent A_grid Col 2 Row 3 end
+Grid Name C_grid Cols 3 2 1 4 Parent A_grid Col 1 Row 2 end
+Grid Name D_grid Cols 2 4 4 Rows 3 1 1 1 Parent B_grid Row 2 end
+Rectangle X_rec Fill #00100 Parent C_grid Col 2 end
+Grid Name E_grid Cols 5 1 2 4 2 1 Rows 3 2 1 1 Parent D_grid end
+
+4
+Grid Name root_grid Cols 2 1 4 Rows 2 4 1 end
+Grid Name grid1 Rows 2 1 1 Parent root_grid end
+Rectangle Name rec1 Cols 2 2 3 Rows 2 1 1 Parent grid1 Col 1 Row 2 end
+Rectangle Name rec2 id3 Parent root_grid Col 2 Row 1 end

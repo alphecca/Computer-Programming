@@ -1,0 +1,8 @@
+7
+Grid Name root_grid Cols 2 1 1 Rows 2 1 1 end
+Grid Name grid1 Cols 2 1 1 Rows 2 1 1 Parent root_grid Col 1 Row 1 end
+Grid Name grid2 Rows 2 1 1 Parent grid1 Col 1 Row 1 end
+Grid Name grid3 Parent grid2 Col 1 Row 1 end
+Grid Name grid4 Parent grid3 Row 1 end
+Grid Name grid5 Parent grid4 end
+Rectangle Name rect Fill red Parent grid5 end

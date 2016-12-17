@@ -1,0 +1,58 @@
+2
+A
+B
+5
+send A B first
+send B A second
+forward A B 1
+forward B A 2
+forward A B 2
+
+2
+A
+B
+6
+send A A myselfA
+send B B myselfB
+forward A A 1
+forward B B 1
+forward A B 2
+forward B A 3
+
+3
+A
+B
+C
+3
+send A B hiya
+forward B C 1
+forward C A 1
+
+1
+me
+6
+send me me hello
+forward me me 1
+send me me hello2
+forward me me 1
+forward me me 2
+forward me me 3
+
+5
+A
+B
+C
+D
+E
+10
+send A E firstAE
+send E A seondEA
+send C A thirdCA
+forward A B 1
+forward A D 2
+forward B A 1
+forward D E 1
+forward E E 2
+forward E E 1
+send E E myselfE
+
